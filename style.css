@@ -1,0 +1,118 @@
+body{
+
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   height: 100vh;
+}
+.container{
+       box-shadow: 10px 10px 15px black;
+       border-radius: 20px;
+       padding: 85px;
+
+   text-align: center;
+}
+
+#title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+input{
+    margin: 3px;
+    padding: 7px;
+    width: 80%;
+     text-align: center;
+}
+button{
+
+    margin: 3px;
+    padding: 7px;
+    width: 80%;
+     text-align: center;
+}
+
+#agebtn{
+    background-color: rgb(177, 170, 170);
+    color: white;
+    font-size: 0.8rem;
+}
+
+#calculatebtn{
+    background-color: orangered;
+    color: white;
+}
+
+#resetbtn{
+    background-color: rgb(71, 68, 68);
+    color: white;
+    font-size: 0.8rem;
+}
+
+#agebtn:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+ #calculatebtn:hover{
+     background-color: black;
+     color: white;
+     cursor: pointer;
+ }
+
+ #resetbtn:hover{
+     background-color: yellowgreen;
+     color: white;
+     cursor: pointer;
+ }
+
+ #displaybox {
+
+   width: 200px;
+   height: 200px;
+   background-color: black;
+   margin-left: 75px;
+   color: white;
+   font-size: 1rem;
+   font-style: italic;
+    
+ }
+
+ .refresh{
+     display: none;
+ }
+
+ .alert1{
+     display: none;
+ }
+
+ .alert2{
+     display: none;
+ }
+
+ .alert1.active{
+     display: block;
+ }
+
+ .alert2.active{
+    display: block;
+}
+
+
+ .box{
+     display: none;
+ }
+
+ .box.active{
+     display: block;
+ }
